@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int n;
+	cin >> n;
+	/*for (int i = n; i != 0; --i) {            //Право низ
+		for (int p = i - 1; p != 0; --p) {
+			cout << " ";
+		}
+		for (int z = n - i; z >= 0; --z) {
+			cout << "*";
+		}
+		cout << endl;
+	}*/
+	
+	
+	/*for (int i = n; i != 0; --i) {
+		for (int p = 1; p <= n - i; ++p) {      //Право верх
+			cout << " ";
+		}
+		for (int z = i - 1; z >= 0; --z) {
+			cout << "*";
+		}
+		cout << endl;
+	}*/
+
+	/*for (int i = 1; i <= n; ++i) {            // Лево низ
+		for (int z = i; z <= n; ++z) {
+			cout << "*";
+		}
+		cout << endl;
+	}*/
+	
+	/*for (int i = n; i > 0; --i) {             //Лево верх
+		for (int z = i; z > 0; --z) {
+			cout << "*";
+		}
+		cout << endl;
+	}*/
+}
+

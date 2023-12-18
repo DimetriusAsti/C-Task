@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int n, max = 0, s = 0, t = 0;
+	cin >> n;
+	max = n;
+	s = 1;
+	t = n;
+	while (n != 0) {
+		cin >> n;
+		if (n >= max) {
+			max = n;
+			if (t == n) {
+				s += 1;
+			}
+			else {
+				s = 1;
+				t = n;
+			}
+		}
+		}
+	cout << s << endl;
+	cout << max;
+	return 0;
+}
